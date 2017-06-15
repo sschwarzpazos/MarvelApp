@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import {
   HomePage
   , CharactersPage
+  , ComicsPage
 } from '../pages/index.pages';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -18,6 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp
     , HomePage
     , CharactersPage
+    , ComicsPage
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp
     , HomePage
     , CharactersPage
+    , ComicsPage
   ],
   providers: [
     StatusBar,
