@@ -10,6 +10,7 @@ import {
   , CharactersPage
   , ComicsPage
   , CreatorsPage
+  , EventsPage
 } from '../pages/index.pages';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -22,6 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , CharactersPage
     , ComicsPage
     , CreatorsPage
+    , EventsPage
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , CharactersPage
     , ComicsPage
     , CreatorsPage
+    , EventsPage
   ],
   providers: [
     StatusBar,
