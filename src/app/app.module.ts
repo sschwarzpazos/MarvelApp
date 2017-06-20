@@ -6,6 +6,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import {
     Provider
   , CharacterProvider
+  , ComicProvider
 } from '../providers/index.providers';
 
 
@@ -32,6 +33,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
       Provider
     , CharacterProvider
+    , ComicProvider
     , StatusBar
     , SplashScreen
     , {
