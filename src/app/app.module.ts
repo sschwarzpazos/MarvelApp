@@ -9,6 +9,7 @@ import {
   , ComicProvider
   , CreatorProvider
   , EventProvider
+  , SerieProvider
 } from '../providers/index.providers';
 
 
@@ -38,6 +39,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , ComicProvider
     , CreatorProvider
     , EventProvider
+    , SerieProvider
     , StatusBar
     , SplashScreen
     , {
