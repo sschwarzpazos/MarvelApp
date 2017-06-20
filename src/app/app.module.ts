@@ -4,7 +4,8 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 // providers / services
 import {
-  Provider
+    Provider
+  , CharacterProvider
 } from '../providers/index.providers';
 
 
@@ -30,10 +31,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   providers: [
       Provider
+    , CharacterProvider
     , StatusBar
     , SplashScreen
     , {
-        provide: ErrorHandler, 
+        provide: ErrorHandler,
         useClass: IonicErrorHandler
       }
   ]
