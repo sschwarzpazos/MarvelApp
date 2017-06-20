@@ -5,3 +5,4 @@ export { ComicProvider } from './comic/comic';
 export { CreatorProvider } from './creator/creator';
 export { EventProvider } from './event/event';
 export { SerieProvider } from './serie/serie';
+export { StoryProvider } from './story/story';
