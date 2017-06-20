@@ -8,6 +8,7 @@ import { HomePage } from '../pages/home/home';
 // components
 import {
     ListComponent
+  , DetailComponent
 } from '../components/index.components';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -19,6 +20,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , MyApp,
     , HomePage,
     , ListComponent
+    , DetailComponent
   ],
   imports: [
     BrowserModule,
