@@ -2,6 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
+// providers / services
+import {
+    Provider
+  , CharacterProvider
+  , ComicProvider
+  , CreatorProvider
+  , EventProvider
+  , SerieProvider
+  , StoryProvider
+} from '../providers/index.providers';
+
+
 import { MyApp } from './app.component';
 
 // pages
@@ -56,9 +68,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , StoriesPage
   ],
   providers: [
-    StatusBar,
-    SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+      Provider
+    , CharacterProvider
+    , ComicProvider
+    , CreatorProvider
+    , EventProvider
+    , SerieProvider
+    , StoryProvider
+    , StatusBar
+    , SplashScreen
+    , {
+        provide: ErrorHandler,
+        useClass: IonicErrorHandler
+      }
   ]
 })
 export class AppModule {}
