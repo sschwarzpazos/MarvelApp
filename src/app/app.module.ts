@@ -10,6 +10,7 @@ import {
   , CreatorProvider
   , EventProvider
   , SerieProvider
+  , StoryProvider
 } from '../providers/index.providers';
 
 
@@ -40,6 +41,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , CreatorProvider
     , EventProvider
     , SerieProvider
+    , StoryProvider
     , StatusBar
     , SplashScreen
     , {
