@@ -15,12 +15,20 @@ import {
   , StoriesPage
 } from '../pages/index.pages';
 
+// components
+import {
+    ListComponent
+  , DetailComponent
+} from '../components/index.components';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
 @NgModule({
   declarations: [
-    MyApp
+    /* Pages */
+      MyApp
     , HomePage
     , CharactersPage
     , ComicsPage
@@ -28,6 +36,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     , EventsPage
     , SeriesPage
     , StoriesPage
+    /* components */
+    , ListComponent
+    , DetailComponent
   ],
   imports: [
     BrowserModule,
